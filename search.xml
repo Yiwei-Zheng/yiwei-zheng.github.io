@@ -80,4 +80,105 @@ I have took a lot of photos:
         <tag>Life&amp;Studying</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Guide Cap Project</title>
+    <url>/2025/07/24/Guide-Cap-Project/</url>
+    <content><![CDATA[<h1 id="Guide-Cap-Project"><a href="#Guide-Cap-Project" class="headerlink" title="Guide Cap Project"></a>Guide Cap Project</h1><h2 id="1-Background-Intro"><a href="#1-Background-Intro" class="headerlink" title="1. Background &amp; Intro"></a>1. Background &amp; Intro</h2><p>Personally speaking, I have not paid any attention to such a device until I noticed a product made by an Estonia Company 7Senses. </p>
+<p><a href="https://7sense.ee/superbrain-1/">SuperBrain 1 - 7Sense</a></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/SuperBrain1.jpg" title="" alt="" width="251"><img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/SuperBrainLite.jpg" alt="" width="249"></p>
+<p>This SuperBrain is really intriguing and revolutionary according their opinion. From my own opinion, the information density of haptic feeling is far more than that of hearing or others. Some groups focus on “Taking to the” device, which is difficult to use in some noisy environments. <a href="https://www.bilibili.com/video/BV1yA8meGEoG/">NUS2024 SWS3025 AIoT Intelligent White Cane</a></p>
+<p>However, the price of SuperBarin is too high for common people to afford. So, I decide to design a cheaper version </p>
+<h2 id="2-How-I-made-it"><a href="#2-How-I-made-it" class="headerlink" title="2. How I made it"></a>2. How I made it</h2><img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/The%20rendered%20image%20of%20the%20project.jpg" alt="" width="478" data-align="center">
+
+<p>At the very beginning, I used an AI painting program to render a structure of the cap to meet the requirements. After that, I made a list of components required. </p>
+<table>
+<thead>
+<tr>
+<th>Name of Components</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5V, 2000mAh battery</td>
+<td>2</td>
+</tr>
+<tr>
+<td>ESP32S3 Development Board</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Vibration Motor</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Laser Radar</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cane</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<p>The table above lists that main components I used, Other minor components (e.g., MOSFETs, soldering tools) are omitted for brevity</p>
+<p>The general principle is that the Radar which fixed on the cane will detect the obstacles in the surrounding and give the data back to the cap through Bluetooth Low Energy (BLE). The ESP32 board will control the motors inside the cap to vibrate. The intensity of vibration represents the distance between the user and the obstacle. PWM controls the motor vibration intensity by modulating power supply frequency.</p>
+<p>Based on the design above, I start my job from the cap first:<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/Main%20box%20for%20vibration%20Motor.png" title="" alt="" data-align="center"></p>
+<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/The%20Box%20for%20the%20mainboard.png" title="" alt="" data-align="center">
+
+<p>First of all, I designed a extension board to allow the ESP32 and the motors to communicate. There are 7 interfaces in the board which connect to 7 motors. The 7 motors corresponds 7 directions on the cap.</p>
+<p>Second, I modelled a container to put the devices in. After that I printed these things out.<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_75.jpg" title="" alt="" data-align="center"><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_77.jpg" title="" alt="" data-align="center"></p>
+<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_79.jpg" title="" alt="" data-align="center">
+
+<div>
+    <center>Installing the components...</center>
+</div>
+
+<div>
+    <center> </center>
+</div>
+
+<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_112.jpg" title="" alt="" data-align="center">
+
+<div>
+    <center>The Left View of the Cap</center>
+</div>
+
+<p>The cap is modified from a head mount for camera. The vacant place for action camera is used to fix the battery and the box of mainboard. The motors connected by wires will be stuck on the head mount. </p>
+<img src="file:///C:/Users/Evan/AppData/Roaming/marktext/images/2025-07-24-16-50-06-微信图片_20250708173950_114.jpg" title="" alt="" data-align="center">
+
+<div>
+    <center>The front view of the cap</center>
+</div>
+
+<p>The cane design is as follows. Similarly, the radar will be installed on the cane, at the height of knees. The radar module will rotate so that it can detect obstacle in all directions. Then the output will be sent to another ESP32 to be processed and transfer to the cap.</p>
+<p>The mounting arm is a part of a selfie stick, however, I found that the size is unbelievably suitable to my invention.</p>
+<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_103.jpg" title="" alt="" data-align="center">
+
+<div>
+    <center>Some Tissue is added to increase the friction</center>
+</div>
+
+
+
+<h3 id="Now-All-the-hardware-is-ready-It-is-time-for-coding"><a href="#Now-All-the-hardware-is-ready-It-is-time-for-coding" class="headerlink" title="Now, All the hardware is ready, It is time for coding."></a>Now, All the hardware is ready, It is time for coding.</h3><p>The logic sequence of the code is simple. When the cap and the cane start working, they will keep seeking each others. Once they connect, the cane will start to send data packets</p>
+<p>I will keep the code, models, boards opensource in my GitHub account.</p>
+<h2 id="3-Results-Summary"><a href="#3-Results-Summary" class="headerlink" title="3. Results &amp; Summary"></a>3. Results &amp; Summary</h2><p>Actually, when building the whole devices together, several components were damaged during assembly. Although I take these things into consideration, the total price is about 1200 CNY which is much less than the price of 9000 EURO. My project may be rough, however, I still believe that there is still some methods to lower the price without lowering the quality. </p>
+<h3 id="Advantage"><a href="#Advantage" class="headerlink" title="Advantage"></a>Advantage</h3><ol>
+<li><p>Low error: according to my measurement, the error is about $\pm2$ cm</p>
+</li>
+<li><p>High range: In some conditions, the radar can even detect objects 9.7m away</p>
+</li>
+<li><p>Better user feelings: the vibrations can make users feel the surroundings.</p>
+</li>
+</ol>
+<h3 id="Disadvantage"><a href="#Disadvantage" class="headerlink" title="Disadvantage"></a>Disadvantage</h3><ol>
+<li><p>Large weight: The cap is much heavier. Difficult to wear for a long time</p>
+</li>
+<li><p>High power consumption: Battery need to be charged frequently.</p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>Invention</tag>
+      </tags>
+  </entry>
 </search>
