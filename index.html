@@ -320,7 +320,7 @@ mjx-container[display="true"] + br {
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2025-07-26 15:23:03 / Modified: 16:15:07" itemprop="dateCreated datePublished" datetime="2025-07-26T15:23:03+08:00">2025-07-26</time>
+              <time title="Created: 2025-07-26 15:23:03 / Modified: 16:20:09" itemprop="dateCreated datePublished" datetime="2025-07-26T15:23:03+08:00">2025-07-26</time>
             </span>
 
           
@@ -337,42 +337,33 @@ mjx-container[display="true"] + br {
           <h2 id="I-Background"><a href="#I-Background" class="headerlink" title="I. Background"></a>I. Background</h2><p>It is easy to find a feature that:</p>
 <p>$$<br>I&#x3D;\int_0^a f(x)dx &#x3D; \int_0^a f(a-x)dx<br>$$</p>
 <p>It can be proofed for $I &#x3D; \int_0^a f(a-x)dx$.</p>
-<p>Let $u&#x3D;a-x$, then $du &#x3D; -dx$. By rearranging, it can be obtained that $dx&#x3D;-du$. </p>
+<p>Let $u&#x3D;a-x$, then $du &#x3D; -dx$. By rearranging, it can be obtained that $dx&#x3D;-du$.</p>
 <p>Replace the boundary $a$: $u_f&#x3D;a-x&#x3D;a-a&#x3D;0$ and $u_i &#x3D; a-x&#x3D;a-0&#x3D;a$</p>
 <p>Then the integral is:</p>
 <p>$$<br>I&#x3D;\int_a^0 f(u)(-du) &#x3D; -\int_a^0f(u)du<br>$$</p>
 <p>Switch $a$ and 0</p>
 <p>$$<br>I &#x3D; \int_0^a f(u)du<br>$$</p>
-<h2 id="II-Examples"><a href="#II-Examples" class="headerlink" title="II. Examples"></a>II. Examples</h2><ol>
-<li><p>$$<br>\int_0^{\frac{\pi}{4}} \ln(1+\tan{x})dx<br>$$</p>
+<h2 id="II-Examples"><a href="#II-Examples" class="headerlink" title="II. Examples"></a>II. Examples</h2><p>1.<br>$$<br>\int_0^{\frac{\pi}{4}} \ln(1+\tan{x})dx<br>$$</p>
 <p>Let the integral be $I$, then:</p>
-<p>$$<br>\begin{align*}</p>
-</li>
-</ol>
-<p>I&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \tan \left(\frac{\pi}{4} - x\right)\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \frac{\tan \frac{\pi}{4} - \tan x}{1 + \tan \frac{\pi}{4} \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \frac{1 - \tan x}{1 + \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(\frac{1 + \tan x + 1 - \tan x}{1 + \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \frac{2}{1 + \tan x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln 2 dx - \int_0^{\frac{\pi}{4}} \ln (1 + \tan x) dx<br>\end{align*}<br>   $$</p>
-<p>   Guess what? THERE IS A NEW $I$ !</p>
-<p>   $$<br>   I &#x3D; \int_0^{\frac{\pi}{4}} \ln 2 dx -I<br>   $$</p>
-<p>   $$<br>   I &#x3D; \frac{1}{2}\ln2\int_0^{\frac{\pi}{4}}dx &#x3D; \frac{\pi}{8}\ln2<br>   $$</p>
-<ol start="2">
-<li><p>$$<br>\int_0^{\frac{\pi}{2}} \frac{1}{1+\tan{x}}dx<br>$$</p>
+<p>$$<br>\begin{align*}<br>I&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \tan \left(\frac{\pi}{4} - x\right)\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \frac{\tan \frac{\pi}{4} - \tan x}{1 + \tan \frac{\pi}{4} \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(1 + \frac{1 - \tan x}{1 + \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \left(\frac{1 + \tan x + 1 - \tan x}{1 + \tan x}\right) dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln \frac{2}{1 + \tan x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{4}} \ln 2 dx - \int_0^{\frac{\pi}{4}} \ln (1 + \tan x) dx<br>\end{align*}<br>$$</p>
+<p>Guess what? THERE IS A NEW $I$ !</p>
+<p>$$<br>I &#x3D; \int_0^{\frac{\pi}{4}} \ln 2 dx -I<br>$$</p>
+<p>$$<br>I &#x3D; \frac{1}{2}\ln2\int_0^{\frac{\pi}{4}}dx &#x3D; \frac{\pi}{8}\ln2<br>$$</p>
+<p>2.<br>$$<br>\int_0^{\frac{\pi}{2}} \frac{1}{1+\tan{x}}dx<br>$$</p>
 <p>Still let the integral be I. Then do some rearrangement:</p>
 <p>$$<br>\frac{1}{1 + \tan x} &#x3D; \frac{1}{1 + \frac{\sin x}{\cos x}} &#x3D; \frac{\cos x}{\sin x + \cos x}<br>$$</p>
 <p>Still apply the method:</p>
-<p>$$<br>\begin{align*}</p>
-</li>
-</ol>
-<p>I &amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos x}{\sin x + \cos x} dx  \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos \left(\frac{\pi}{2} - x\right)}{\sin \left(\frac{\pi}{2} - x\right) + \cos \left(\frac{\pi}{2} - x\right)} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx<br>\end{align*}<br>   $$</p>
-<p>   Hence:</p>
-<p>   $$<br>   I+I &#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos x}{\sin x + \cos x} dx+\int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx<br>   $$</p>
-<p>   $$<br>   2I &#x3D; \int_0^{\frac{\pi}{2}}dx<br>   $$</p>
-<p>   $$<br>   I &#x3D;\frac{\pi}{4}<br>   $$</p>
+<p>$$<br>\begin{align*}<br>I &amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos x}{\sin x + \cos x} dx  \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos \left(\frac{\pi}{2} - x\right)}{\sin \left(\frac{\pi}{2} - x\right) + \cos \left(\frac{\pi}{2} - x\right)} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx<br>\end{align*}<br>$$</p>
+<p>Hence:</p>
+<p>$$<br>I+I &#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos x}{\sin x + \cos x} dx+\int_0^{\frac{\pi}{2}} \frac{\sin x}{\cos x + \sin x} dx<br>$$</p>
+<p>$$<br>2I &#x3D; \int_0^{\frac{\pi}{2}}dx<br>$$</p>
+<p>$$<br>I &#x3D;\frac{\pi}{4}<br>$$</p>
 <ol start="3">
-<li><p>$$<br>\int_0^{\frac{\pi}{2}} \frac{dx}{1 + \tan^{\sqrt{2025}} x}<br>$$</p>
-<p>Similarly: </p>
-<p>$$<br>\begin{align*}</p>
-</li>
+<li></li>
 </ol>
-<p>I&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{dx}{1 + \tan^{\sqrt{2025}} x}  \quad a &#x3D; \sqrt{2025} \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{1}{1 + \frac{\sin^a x}{\cos^a x}} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos^a x}{\cos^a x + \sin^a x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos^a \left(\frac{\pi}{2} - x\right)}{\cos^a \left(\frac{\pi}{2} - x\right) + \sin^a \left(\frac{\pi}{2} - x\right)} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin^a x}{\sin^a x + \cos^a x} dx \<br>2I &amp;&#x3D; \int_0^{\frac{\pi}{2}} dx &#x3D; \frac{\pi}{2} \quad \Rightarrow \quad I &#x3D; \frac{\pi}{4}<br>\end{align*}<br>   $$</p>
+<p>$$<br>\int_0^{\frac{\pi}{2}} \frac{dx}{1 + \tan^{\sqrt{2025}} x}<br>$$</p>
+<p>Similarly:</p>
+<p>$$<br>\begin{align*}<br>I&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{dx}{1 + \tan^{\sqrt{2025}} x}  \quad a &#x3D; \sqrt{2025} \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{1}{1 + \frac{\sin^a x}{\cos^a x}} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos^a x}{\cos^a x + \sin^a x} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\cos^a \left(\frac{\pi}{2} - x\right)}{\cos^a \left(\frac{\pi}{2} - x\right) + \sin^a \left(\frac{\pi}{2} - x\right)} dx \<br>&amp;&#x3D; \int_0^{\frac{\pi}{2}} \frac{\sin^a x}{\sin^a x + \cos^a x} dx \<br>2I &amp;&#x3D; \int_0^{\frac{\pi}{2}} dx &#x3D; \frac{\pi}{2} \quad \Rightarrow \quad I &#x3D; \frac{\pi}{4}<br>\end{align*}<br>$$</p>
 
       
     </div>
