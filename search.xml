@@ -26,24 +26,6 @@
       </tags>
   </entry>
   <entry>
-    <title>HKUSI</title>
-    <url>/2025/06/24/HKUSI/</url>
-    <content><![CDATA[<h1 id="HKUSI-Is-Really-An-Excellent-Experience"><a href="#HKUSI-Is-Really-An-Excellent-Experience" class="headerlink" title="HKUSI Is Really An Excellent Experience"></a>HKUSI Is Really An Excellent Experience</h1><center> 
-    After a semester of hard work and finish my A-Level exam, I finally have time to take care of my blog since this week
-    :)
-</center>
-<center>
-    Actually, I have seldom used this blog since I started it last year due to exams in school. Now I have some time because of the summer vacation. :)
-</center>
-I have took a lot of photos:
-
-<p><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_24.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_25.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_27.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_23.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624190045_36.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624190050_37.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185012_28.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185012_29.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_26.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185013_32.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185013_33.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185834_38.jpg"></p>
-]]></content>
-      <tags>
-        <tag>Life&amp;Studying</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Guide Cap Project</title>
     <url>/2025/07/24/Guide-Cap-Project/</url>
     <content><![CDATA[<h1 id="Guide-Cap-Project"><a href="#Guide-Cap-Project" class="headerlink" title="Guide Cap Project"></a>Guide Cap Project</h1><h2 id="1-Background-Intro"><a href="#1-Background-Intro" class="headerlink" title="1. Background &amp; Intro"></a>1. Background &amp; Intro</h2><p>Personally speaking, I have not paid any attention to such a device until I noticed a product made by an Estonia Company 7Senses. </p>
@@ -148,24 +130,6 @@ I have took a lot of photos:
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/12/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Some Interesting Intergral Problems(1)</title>
     <url>/2025/07/26/Some-Interesting-Intergral-Problems-1/</url>
     <content><![CDATA[<h2 id="1-Background"><a href="#1-Background" class="headerlink" title="1. Background"></a>1. Background</h2><p>It is easy to find a feature that:</p>
@@ -203,6 +167,45 @@ I have took a lot of photos:
         <tag>Maths</tag>
         <tag>Calculus</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>HKUSI</title>
+    <url>/2025/06/24/HKUSI/</url>
+    <content><![CDATA[<h1 id="HKUSI-Is-Really-An-Excellent-Experience"><a href="#HKUSI-Is-Really-An-Excellent-Experience" class="headerlink" title="HKUSI Is Really An Excellent Experience"></a>HKUSI Is Really An Excellent Experience</h1><center> 
+    After a semester of hard work and finish my A-Level exam, I finally have time to take care of my blog since this week
+    :)
+</center>
+<center>
+    Actually, I have seldom used this blog since I started it last year due to exams in school. Now I have some time because of the summer vacation. :)
+</center>
+I have took a lot of photos:
+
+<p><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_24.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_25.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_27.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_23.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624190045_36.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624190050_37.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185012_28.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185012_29.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624182319_26.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185013_32.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185013_33.jpg"><br><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250624185834_38.jpg"></p>
+]]></content>
+      <categories>
+        <category>Moments</category>
+      </categories>
+      <tags>
+        <tag>SummerSchool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/12/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>关于动量守恒的证明</title>
