@@ -576,7 +576,7 @@ mjx-container[display="true"] + br {
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2025/07/24/Guide-Cap-Project/" class="post-title-link" itemprop="url">Guide Cap Project</a>
+            <a href="/2025/07/24/Guide-Cap-Project/" class="post-title-link" itemprop="url">Navigation Device for Visually Impaired People</a>
         </h2>
 
         <div class="post-meta">
@@ -593,7 +593,7 @@ mjx-container[display="true"] + br {
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2025-08-02 14:58:01" itemprop="dateModified" datetime="2025-08-02T14:58:01+08:00">2025-08-02</time>
+                <time title="Modified: 2025-11-10 10:17:18" itemprop="dateModified" datetime="2025-11-10T10:17:18+08:00">2025-11-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -616,7 +616,7 @@ mjx-container[display="true"] + br {
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Guide-Cap-Project"><a href="#Guide-Cap-Project" class="headerlink" title="Guide Cap Project"></a>Guide Cap Project</h1><h2 id="1-Background-Intro"><a href="#1-Background-Intro" class="headerlink" title="1. Background & Intro"></a>1. Background &amp; Intro</h2><p>Personally speaking, I have not paid any attention to such a device until I noticed a product made by an Estonian Company, 7Senses. </p>
+          <h2 id="1-Background-Intro"><a href="#1-Background-Intro" class="headerlink" title="1. Background & Intro"></a>1. Background &amp; Intro</h2><p>Personally speaking, I have not paid any attention to such a device until I noticed a product made by an Estonian Company, 7Senses. </p>
 <p><a target="_blank" rel="noopener" href="https://7sense.ee/superbrain-1/">SuperBrain 1 - 7Sense</a></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/SuperBrain1.jpg" title="" alt="" width="251"><img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/SuperBrainLite.jpg" alt="" width="249"></p>
 <p>This SuperBrain is intriguing and revolutionary, according to their opinion. In my own opinion, the information density of haptic feeling is far greater than that of hearing or other senses. Some groups focus on “Taking to the” device, which is difficult to use in some noisy environments. <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1yA8meGEoG/">NUS2024 SWS3025 AIoT Intelligent White Cane</a></p>
@@ -655,11 +655,11 @@ mjx-container[display="true"] + br {
 <p>The table above lists the main components I used. Other minor components (e.g., MOSFETs, soldering tools) are omitted for brevity</p>
 <p>The general principle is that the Radar, which is fixed on the cane, will detect the obstacles in the surroundings and give the data back to the cap through Bluetooth Low Energy (BLE). The ESP32 board will control the motors inside the cap to vibrate. The intensity of vibration represents the distance between the user and the obstacle. PWM controls the motor vibration intensity by modulating the power supply frequency.</p>
 <p>Based on the design above, I start my job from the cap first:<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/Main%20box%20for%20vibration%20Motor.png" title="" alt="" data-align="center"></p>
-<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/The%20Box%20for%20the%20mainboard.png" title="" alt="" data-align="center">
+<img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/The%20Box%20for%20the%20mainboard.png" alt="" data-align="center" width="1087">
 
 <p>First of all, I designed an extension board to allow the ESP32 and the motors to communicate. There are 7 interfaces on the board that connect to 7 motors. The 7 motors correspond to 7 directions on the cap.</p>
 <p>Second, I modelled a container to put the devices in. After that, I printed these things out.<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_75.jpg" title="" alt="" data-align="center"><img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_77.jpg" title="" alt="" data-align="center"></p>
-<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_79.jpg" title="" alt="" data-align="center">
+<img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_79.jpg" alt="" data-align="center" width="795">
 
 <div>
     <center>Installing the components...</center>
@@ -669,14 +669,14 @@ mjx-container[display="true"] + br {
     <center> </center>
 </div>
 
-<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_112.jpg" title="" alt="" data-align="center">
+<img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_112.jpg" alt="" data-align="center" width="750">
 
 <div>
     <center>The Left View of the Cap</center>
 </div>
 
 <p>The cap is modified from a head mount for a camera. The vacant place for the action camera is used to fix the battery and the box of the mainboard. The motors connected by wires will be stuck on the head mount. </p>
-<img src="file:///C:/Users/Evan/AppData/Roaming/marktext/images/2025-07-24-16-50-06-微信图片_20250708173950_114.jpg" title="" alt="" data-align="center">
+<img title="" src="file:///C:/Users/Evan/AppData/Roaming/marktext/images/2025-07-24-16-50-06-微信图片_20250708173950_114.jpg" alt="" data-align="center" width="584">
 
 <div>
     <center>The front view of the cap</center>
@@ -684,7 +684,7 @@ mjx-container[display="true"] + br {
 
 <p>The cane design is as follows. Similarly, the radar will be installed on the cane, at the height of the knees. The radar module will rotate so that it can detect obstacles in all directions. Then the output will be sent to another ESP32 to be processed and transferred to the cap.</p>
 <p>The mounting arm is a part of a selfie stick; however, I found that the size is unbelievably suitable for my invention.</p>
-<img src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_103.jpg" title="" alt="" data-align="center">
+<img title="" src="https://cdn.jsdelivr.net/gh/Yiwei-Zheng/img-storage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20250708173950_103.jpg" alt="" data-align="center" width="803">
 
 <div>
     <center>Some Tissue is added to increase the friction</center>
